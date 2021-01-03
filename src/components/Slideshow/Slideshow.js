@@ -20,7 +20,7 @@ export default function Slideshow()
       // Returns 1 if the user came from the next slide.
       // etc...
         for (let i = 0; i < pages.length; i++) {
-            console.log(document.referrer.split('/')[3])
+            console.log(document.referrer.split('/'))
             if (pages[i] === '/' + document.referrer.split('/')[3]) {
                 return i - GetPageIndex();
             }
@@ -44,14 +44,13 @@ export default function Slideshow()
         sliderBtn.children[0].classList.add('page-slider-arrow-exit')
 
         setTimeout(() => {
-            window.location.replace('http://localhost:3000' + pages[pageNum + direction])
+            window.location.replace(pages[pageNum + direction])
         }, 500)
     }
 
     function GetSlideshowButtons() {
         let pageNum = GetPageIndex()
         let previousSlideDirection = GetSlideFrom()
-        console.log(GetSlideFrom())
 
         if (pageNum > 0 && pageNum < pages.length - 1)
             return (
