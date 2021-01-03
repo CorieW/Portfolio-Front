@@ -12,6 +12,7 @@
 
     font-size: 35px;
     color: white;
+    text-align: center;
 
     transition: width 0.5s;
 }
