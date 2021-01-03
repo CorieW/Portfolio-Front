@@ -1,0 +1,105 @@
+/** Slider Stuff **/
+.slide-left, .slide-right {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    background-color: mediumslateblue;
+    border: none;
+    z-index: 1;
+    outline: none;
+    cursor: pointer;
+
+    font-size: 35px;
+    color: white;
+
+    transition: width 0.5s;
+}
+
+.slide-left {
+    left: 0;
+}
+
+.slide-right {
+    right: 0;
+}
+
+@media only screen and (max-width: 425px) {
+    .slide-left, .slide-right {
+        top: unset;
+        height: 12vw;
+        width: 20%;
+        font-size: 11vw;
+    }
+}
+
+/** Animation Stuff **/
+.first-page-entrance {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+.page-entrance {
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+.page-exit {
+    animation-name: slideOut;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+.page-slider-arrow-entrance {
+    animation-name: halfFadeIn;
+    animation-duration: 1s;
+    animation-delay: 0s;  
+}
+
+.page-slider-arrow-exit {
+    animation-name: fadeOut;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes halfFadeIn {
+    0%   {opacity: 0;}
+    50%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeOut {
+    0%   {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes slideIn {
+    0%   {width: 100%; z-index: 2;}
+    100% {z-index: 1;}
+}
+
+@keyframes slideOut {
+    0%   {z-index: 2;}
+    100% {width: 100%; z-index: 2;}
+}
+
+@media only screen and (max-width: 425px) {
+    @keyframes slideIn {
+        0%   {width: 100%; z-index: 2;}
+        100% {z-index: 1;}
+    }
+
+    @keyframes slideOut {
+        0%   {z-index: 2;}
+        100% {width: 100%; z-index: 2;}
+    }
+}

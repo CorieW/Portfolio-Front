@@ -1,0 +1,74 @@
+.contact-me-form {
+    width: 100%;
+    padding: 50px 10%;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+
+.contact-me-form label {
+    display: block;
+    padding: 0 0 10px;
+    
+    text-align: left;
+}
+
+.contact-me-form input, .contact-me-form textarea, .contact-me-form #submit {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.contact-me-form input, .contact-me-form textarea {
+    padding-left: 10px;
+    resize: none;
+    border-left: 3px solid gray;
+
+    transition: border-left 0.5s;
+}
+
+.contact-me-form input:focus, .contact-me-form textarea:focus {
+
+    border-left: 3px solid blue;
+}
+
+.contact-me-form #submit {
+    background-color: blue;
+    margin: 25px 0 0 0;
+    border: none;
+    cursor: pointer;
+
+    font-size: 20px;
+    color: white;
+
+    transition: padding 0.5s;
+}
+
+/*.contact-me-form #submit:hover {
+    padding: 15px 0;
+}*/
+
+@media only screen and (max-width: 425px) {
+    .contact-me-form {
+        padding: 20px 0;
+    }
+
+    .contact-me-form label {
+        margin-left: 5%;
+    }
+
+    .contact-me-form input, .contact-me-form textarea {
+        width: 90%;
+        margin: 0 5%;
+    }    
+}

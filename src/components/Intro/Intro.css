@@ -1,0 +1,14 @@
+.intro .greeting {
+    font-weight: bold;
+
+    animation-name: greet;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes greet {
+    0%   {font-size: 100%;}
+    100% {font-size: 110%;}
+}

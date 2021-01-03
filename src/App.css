@@ -1,0 +1,76 @@
+.App {
+  margin: auto;
+  width: 800px;
+  max-width: 100%;
+  padding: 0 70px;
+  box-sizing: border-box;
+
+  text-align: center;
+}
+
+.header {
+  margin: 30px 0 0;
+
+  font-size: 60px;
+  text-align: left;
+}
+
+.sub-header {
+  margin: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.info {
+  font-size: 18px;
+  text-align: left;
+}
+
+.screen-reader-text {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    font-size: 50px;
+  }
+
+  .sub-header {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .header {
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  .sub-header {
+    font-size: 5vw;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .App {
+    padding: 0 5px;
+  }
+
+  .header {
+    font-size: 8vw;
+  }
+
+  .sub-header {
+    font-size: 6vw;
+  }
+
+  .info {
+    font-size: 5vw;
+  }
+}
