@@ -12,7 +12,6 @@
 
     font-size: 35px;
     color: white;
-    text-align: center;
 
     transition: width 0.5s;
 }
@@ -30,7 +29,9 @@
         top: unset;
         height: 12vw;
         width: 20%;
-        font-size: 11vw;
+
+        line-height: 12vw;
+        font-size: 8vw;
     }
 }
 
