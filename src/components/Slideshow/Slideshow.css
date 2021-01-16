@@ -1,8 +1,8 @@
 /** Slider Stuff **/
 .slide-left, .slide-right {
     position: fixed;
-    top: 0;
-    bottom: 0;
+    top: 43vh;
+    bottom: 43vh;
     width: 50px;
     background-color: mediumslateblue;
     border: none;
@@ -27,6 +27,7 @@
 @media only screen and (max-width: 425px) {
     .slide-left, .slide-right {
         top: unset;
+        bottom: 0;
         height: 12vw;
         width: 20%;
 
@@ -50,7 +51,7 @@
 
 .page-exit {
     animation-name: slideOut;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     animation-delay: 0s;
     animation-fill-mode: forwards;
 }
@@ -85,23 +86,33 @@
 }
 
 @keyframes slideIn {
-    0%   {width: 100%; z-index: 2;}
+    0%   {width: 100%; z-index: 2; top: 0; bottom: 0;}
+    50%  {width: 50px; top: 0; bottom: 0;}
     100% {z-index: 1;}
 }
 
 @keyframes slideOut {
     0%   {z-index: 2;}
-    100% {width: 100%; z-index: 2;}
+    30%  {width: 50px; top: 0; bottom: 0;}
+    100% {width: 100%; z-index: 2; top: 0; bottom: 0;}
 }
 
 @media only screen and (max-width: 425px) {
+    .page-entrance {
+        animation-duration: 0.7s;
+    }
+    
+    .page-exit {
+        animation-duration: 0.5s;
+    }    
+
     @keyframes slideIn {
-        0%   {width: 100%; z-index: 2;}
-        100% {z-index: 1;}
+        0%   {width: 100%; z-index: 2; height: 100vh;}
+        100% {z-index: 1; height: 12vw;}
     }
 
     @keyframes slideOut {
         0%   {z-index: 2;}
-        100% {width: 100%; z-index: 2;}
+        100% {width: 100%; z-index: 2; height: 100vh;}
     }
 }

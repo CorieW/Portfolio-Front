@@ -45,7 +45,7 @@ export default function Slideshow()
 
         setTimeout(() => {
             window.location.replace(pages[pageNum + direction])
-        }, 500)
+        }, 1000)
     }
 
     function GetSlideshowButtons() {
