@@ -43,6 +43,15 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className='project'>
+                    <p className='project-name'>WordyURL.com</p>
+                    <p className='short-description'>Create small redirection urls that are rememberable. Built using MySQL, Express, React, and Node.js.</p>
+                    <div className='links'>
+                        <a className='link fab fa-github' href='https://github.com/CorieW/URLWords.com' target='_blank' rel='noreferrer'>
+                            <span className='screen-reader-text'>Project's GitHub repository</span>
+                        </a>
+                    </div>
+                </div>
+                <div className='project'>
                     <p className='project-name'>Portfolio</p>
                     <p className='short-description'>This website that you are on right now was developed by myself.</p>
                     <div className='links'>
