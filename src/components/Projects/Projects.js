@@ -60,6 +60,15 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
+                <div className='project'>
+                    <p className='project-name'>Projects4Devs</p>
+                    <p className='short-description'>Discover and share cool project ideas with other developers!</p>
+                    <div className='links'>
+                        <a className='link fab fa-github' href='https://github.com/CorieW/Projects4Devs' target='_blank' rel='noreferrer'>
+                            <span className='screen-reader-text'>Project's GitHub repository</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     )
