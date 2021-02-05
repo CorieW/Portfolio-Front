@@ -67,6 +67,9 @@ export default function Projects() {
                         <a className='link fab fa-github' href='https://github.com/CorieW/Projects4Devs' target='_blank' rel='noreferrer'>
                             <span className='screen-reader-text'>Project's GitHub repository</span>
                         </a>
+                        <a className='link fas fa-globe-europe' href='https://projects4devs.com/' target='_blank' rel='noreferrer'>
+                            <span className='screen-reader-text'>Project's website</span>
+                        </a>
                     </div>
                 </div>
             </div>
