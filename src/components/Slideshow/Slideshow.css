@@ -3,6 +3,7 @@
     position: fixed;
     top: 43vh;
     bottom: 43vh;
+    min-height: 50px;
     width: 50px;
     background-color: mediumslateblue;
     border: none;

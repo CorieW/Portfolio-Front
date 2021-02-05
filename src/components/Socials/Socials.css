@@ -1,14 +1,13 @@
 .socials {
-    padding: 0 0 150px;
+    margin: 0 0 150px;
 }
 
 .socials-container {
     position: fixed;
     height: 50px;
     bottom: 75px;
-    left: -50%;
-    right: 50%;
-    transform: translateX(50%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .socials ul {
