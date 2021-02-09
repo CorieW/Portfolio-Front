@@ -65,7 +65,7 @@ export default function Projects() {
                 </div>
                 <div className='project'>
                     <p className='project-name'>codeTache</p>
-                    <p className='short-description'>A messaging platform specifically targeted towards developers.</p>
+                    <p className='short-description'>A messaging platform specifically targeted towards developers. <b>(Work in progress)</b></p>
                     <div className='links'>
                         <a className='link fab fa-github' href='https://github.com/CorieW/codeTache-Client' target='_blank' rel='noreferrer'>
                             <span className='screen-reader-text'>Project's GitHub repository</span>
