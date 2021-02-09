@@ -34,15 +34,6 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className='project'>
-                    <p className='project-name'>IMustAsk.com</p>
-                    <p className='short-description'>A small website development project using the MERN stack. Ask and answer questions faster and easier than ever!</p>
-                    <div className='links'>
-                        <a className='link fab fa-github' href='https://github.com/CorieW/IMustAsk.com' target='_blank' rel='noreferrer'>
-                            <span className='screen-reader-text'>Project's GitHub repository</span>
-                        </a>
-                    </div>
-                </div>
-                <div className='project'>
                     <p className='project-name'>WordyURL.com</p>
                     <p className='short-description'>Create small redirection urls that are rememberable. Built using MySQL, Express, React, and Node.js.</p>
                     <div className='links'>
@@ -72,7 +63,31 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
+                <div className='project'>
+                    <p className='project-name'>codeTache</p>
+                    <p className='short-description'>A messaging platform specifically targeted towards developers.</p>
+                    <div className='links'>
+                        <a className='link fab fa-github' href='https://github.com/CorieW/codeTache-Client' target='_blank' rel='noreferrer'>
+                            <span className='screen-reader-text'>Project's GitHub repository</span>
+                        </a>
+                        <a className='link fas fa-globe-europe' href='https://codetache.netlify.app/' target='_blank' rel='noreferrer'>
+                            <span className='screen-reader-text'>Project's website</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     )
 }
+
+/*
+<div className='project'>
+    <p className='project-name'>IMustAsk.com</p>
+    <p className='short-description'>A small website development project using the MERN stack. Ask and answer questions faster and easier than ever!</p>
+    <div className='links'>
+        <a className='link fab fa-github' href='https://github.com/CorieW/IMustAsk.com' target='_blank' rel='noreferrer'>
+            <span className='screen-reader-text'>Project's GitHub repository</span>
+        </a>
+    </div>
+</div>
+*/
