@@ -3,7 +3,7 @@ import './ThemeSelect.css'
 
 export default function ThemeSelect()
 {
-  const [themes, setThemes] = useState({
+  const [themes] = useState({
       LIGHT: 'light',
       DARK: 'dark'
     })
@@ -12,7 +12,7 @@ export default function ThemeSelect()
   useEffect(() => {
     const parsedActiveTheme = localStorage.getItem('activeTheme') || themes.LIGHT
     setActiveTheme(parsedActiveTheme)
-  }, [])
+  }, [themes])
 
   useEffect(() => {
     const root = document.documentElement;
