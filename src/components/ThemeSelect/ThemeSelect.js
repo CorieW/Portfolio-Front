@@ -12,7 +12,7 @@ export default function ThemeSelect()
       useEffect(() => {
         const parsedActiveTheme = localStorage.getItem('activeTheme') || themes.LIGHT
         setActiveTheme(parsedActiveTheme)
-      }, [])
+      }, [themes])
     
       useEffect(() => {
         const root = document.documentElement;
@@ -49,7 +49,7 @@ export default function ThemeSelect()
           root.style.setProperty('--soft-transparent-color', 'rgba(255, 255, 255, 0.1)');
           root.style.setProperty('--hard-transparent-color', 'rgba(255, 255, 255, 0.2)');
         }
-      }, [activeTheme])
+      }, [themes, activeTheme])
 
     return (
         <div id='theme-select-container'>
