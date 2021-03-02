@@ -3,7 +3,7 @@ import './ThemeSelect.css'
 
 export default function ThemeSelect()
 {
-  const themes = useState({
+  const [themes, setThemes] = useState({
       LIGHT: 'light',
       DARK: 'dark'
     })
@@ -12,7 +12,7 @@ export default function ThemeSelect()
   useEffect(() => {
     const parsedActiveTheme = localStorage.getItem('activeTheme') || themes.LIGHT
     setActiveTheme(parsedActiveTheme)
-  }, [themes])
+  }, [])
 
   useEffect(() => {
     const root = document.documentElement;
@@ -50,6 +50,8 @@ export default function ThemeSelect()
       root.style.setProperty('--hard-transparent-color', 'rgba(255, 255, 255, 0.2)');
     }
   }, [themes, activeTheme])
+
+  console.log(themes)
 
   return (
       <div id='theme-select-container'>
