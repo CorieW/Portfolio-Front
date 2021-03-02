@@ -1,4 +1,4 @@
-.intro .greeting {
+#intro-container .greeting {
     font-weight: bold;
 
     animation-name: greet;
@@ -7,8 +7,38 @@
     animation-fill-mode: forwards;
 }
 
+#intro-container .tables-container {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+#intro-container .table-container {
+    display: inline-block;
+    min-width: 280px;
+    width: 50%;
+}
+
+#intro-container .table-container table {
+    width: 100%;
+}
+
+#intro-container .table-container th {
+    padding: 5px;
+    background-color: var(--hard-transparent-color);
+}
+
+#intro-container .table-container td {
+    padding: 5px;
+    background-color: var(--soft-transparent-color);
+}
 
 @keyframes greet {
     0%   {font-size: 100%;}
     100% {font-size: 110%;}
+}
+
+@media only screen and (max-width: 590px) {
+    #intro-container .table-container {
+        min-width: 100%;
+    }
 }

@@ -1,0 +1,43 @@
+#theme-select-container {
+  width: 100%;
+  height: 30px;
+  padding: 10px 0;
+
+  text-align: right;
+}
+
+#theme-select-container * {
+  display: inline-block;
+}
+
+#theme-select-container p {
+  margin: 0 10px 0 0;
+
+  vertical-align: top;
+  line-height: 30px;
+}
+
+#theme-select-container .theme-select-btn {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border: 2px solid whitesmoke;
+  border-radius: 100%;
+  outline: none;
+}
+
+#theme-select-container .theme-select-btn:hover {
+  border: 2px solid gray;
+}
+
+#light-theme-select-btn {
+  background-color: white;
+}
+
+#dark-theme-select-btn {
+  background-color: rgb(25, 25, 25);
+}
+
+#theme-select-container .active {
+  border: 2px solid limegreen !important;
+}

@@ -9,13 +9,13 @@
     position: relative;
     margin: 0 5px 10px;
     padding: 8px;
-    background-color: whitesmoke;
-    border: 2px solid whitesmoke;
+    background-color: var(--secondary-bg-color);
+    border: 2px solid var(--secondary-bg-color);
     width: calc(33.33% - 14px); /** Subtracting margin and border*/
     min-height: 220px;
     box-sizing: border-box;
 
-    color: black;
+    color: var(--text-color);
 }
 
 .project-name {
@@ -44,7 +44,7 @@
     padding: 0 10px;
 
     font-size: 40px;
-    color: black;
+    color: var(--text-color);
 }
 
 @media only screen and (max-width: 768px) {

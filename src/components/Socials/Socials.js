@@ -3,8 +3,8 @@ import './Socials.css'
 
 export default function Socials() {
     return (
-        <div className='socials'>
-            <div className='socials-container'>
+        <div id='socials-container'>
+            <div className='container'>
                 <ul>
                     <li>
                         <a className='social fab fa-github' href='https://github.com/CorieW' target='_blank' rel='noreferrer'>

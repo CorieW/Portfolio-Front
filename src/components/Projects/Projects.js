@@ -3,8 +3,8 @@ import './Projects.css'
 
 export default function Projects() {
     return (
-        <div className='projects'>
-            <p className='header'>Projects</p>
+        <div id='projects-container'>
+            <h1>Projects</h1>
             <div className='project-list-container'>
                 <div className='project'>
                     <p className='project-name'>Tilt It</p>

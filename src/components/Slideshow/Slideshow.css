@@ -6,14 +6,14 @@
 
     height: 150px;
     width: 50px;
-    background-color: mediumslateblue;
+    background-color: var(--slideshow-btn-color);
     border: none;
     z-index: 1;
     outline: none;
     cursor: pointer;
 
     font-size: 35px;
-    color: white;
+    color: var(--bg-color);
 
     transition: width 0.5s;
 }
@@ -31,11 +31,11 @@
         top: unset;
         transform: unset;
         bottom: 0;
-        height: 12vw;
+        height: 50px;
         width: 20%;
 
         line-height: 12vw;
-        font-size: 8vw;
+        font-size: 30px;
     }
 }
 

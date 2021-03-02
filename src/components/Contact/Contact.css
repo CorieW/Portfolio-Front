@@ -1,18 +1,18 @@
-.contact-me-form {
+#contact-container .form {
     width: 100%;
     padding: 50px 10%;
-    background-color: whitesmoke;
+    background-color: var(--secondary-bg-color);
     box-sizing: border-box;
 }
 
-.contact-me-form label {
+#contact-container .form label {
     display: block;
     padding: 0 0 10px;
     
     text-align: left;
 }
 
-.contact-me-form input, .contact-me-form textarea, .contact-me-form #submit {
+#contact-container .form input, #contact-container .form textarea, #contact-container .form .submit {
     display: block;
     width: 100%;
     margin: 0;
@@ -29,7 +29,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.contact-me-form input, .contact-me-form textarea {
+#contact-container .form input, #contact-container .form textarea {
     padding-left: 10px;
     resize: none;
     border-left: 3px solid gray;
@@ -37,19 +37,19 @@
     transition: border-left 0.5s;
 }
 
-.contact-me-form input:focus, .contact-me-form textarea:focus {
+#contact-container .form input:focus, #contact-container .form textarea:focus {
 
-    border-left: 3px solid blue;
+    border-left: 3px solid var(--primary-color);
 }
 
-.contact-me-form #submit {
-    background-color: blue;
+#contact-container .form .submit {
+    background-color: var(--button-color);
     margin: 25px 0 0 0;
     border: none;
     cursor: pointer;
 
     font-size: 20px;
-    color: white;
+    color: var(--header-color);
 
     transition: padding 0.5s;
 }
@@ -59,15 +59,15 @@
 }*/
 
 @media only screen and (max-width: 425px) {
-    .contact-me-form {
+    #contact-container .form {
         padding: 20px 0;
     }
 
-    .contact-me-form label {
+    #contact-container .form label {
         margin-left: 5%;
     }
 
-    .contact-me-form input, .contact-me-form textarea {
+    #contact-container .form input, #contact-container .form textarea {
         width: 90%;
         margin: 0 5%;
     }    

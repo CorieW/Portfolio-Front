@@ -82,7 +82,7 @@ export default function Slideshow()
     }
 
     return (
-        <div className='slideshow'>
+        <div id='slideshow-container'>
             { GetSlideshowButtons() }
         </div>
     )
