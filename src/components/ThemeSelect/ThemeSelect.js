@@ -51,8 +51,6 @@ export default function ThemeSelect()
     }
   }, [themes, activeTheme])
 
-  console.log(themes)
-
   return (
       <div id='theme-select-container'>
           <p>Select theme:</p>

@@ -17,88 +17,96 @@ export default function Intro() {
                 <div className='table-container'>
                     <h3>Programming Languages</h3>
                     <table>
-                        <tr>
-                            <th>Language</th>
-                            <th>Experience</th>
-                        </tr>
-                        <tr>
-                            <td>HTML</td>
-                            <td>3 years</td>
-                        </tr>
-                        <tr>
-                            <td>CSS</td>
-                            <td>3 years</td>
-                        </tr>
-                        <tr>
-                            <td>Javascript</td>
-                            <td>1 year</td>
-                        </tr>
-                        <tr>
-                            <td>C#</td>
-                            <td>3 years</td>
-                        </tr>
-                        <tr>
-                            <td>Java</td>
-                            <td>3 years</td>
-                        </tr>
-                        <tr>
-                            <td>Python</td>
-                            <td>3 years</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <th>Language</th>
+                                <th>Experience</th>
+                            </tr>
+                            <tr>
+                                <td>HTML</td>
+                                <td>3 years</td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td>3 years</td>
+                            </tr>
+                            <tr>
+                                <td>Javascript</td>
+                                <td>1 year</td>
+                            </tr>
+                            <tr>
+                                <td>C#</td>
+                                <td>3 years</td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>3 years</td>
+                            </tr>
+                            <tr>
+                                <td>Python</td>
+                                <td>3 years</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
 
                 <div className='table-container'>
                     <h3>Web Technologies</h3>
                     <table>
-                        <tr>
-                            <th>Technology</th>
-                            <th>Experience</th>
-                        </tr>
-                        <tr>
-                            <td>Node.js</td>
-                            <td>8 months</td>
-                        </tr>
-                        <tr>
-                            <td>Express</td>
-                            <td>8 months</td>
-                        </tr>
-                        <tr>
-                            <td>React</td>
-                            <td>6 months</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <th>Technology</th>
+                                <th>Experience</th>
+                            </tr>
+                            <tr>
+                                <td>Node.js</td>
+                                <td>8 months</td>
+                            </tr>
+                            <tr>
+                                <td>Express</td>
+                                <td>8 months</td>
+                            </tr>
+                            <tr>
+                                <td>React</td>
+                                <td>6 months</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
 
                 <div className='table-container'>
                     <h3>Game Technologies</h3>
                     <table>
-                        <tr>
-                            <th>Technology</th>
-                            <th>Experience</th>
-                        </tr>
-                        <tr>
-                            <td>Unity</td>
-                            <td>2+ years</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <th>Technology</th>
+                                <th>Experience</th>
+                            </tr>
+                            <tr>
+                                <td>Unity</td>
+                                <td>2+ years</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
 
                 <div className='table-container'>
                     <h3>Database Technologies</h3>
                     <table>
-                        <tr>
-                            <th>Technology</th>
-                            <th>Experience</th>
-                        </tr>
-                        <tr>
-                            <td>MySQL</td>
-                            <td>8 months</td>
-                        </tr>
-                        <tr>
-                            <td>Mongo.js</td>
-                            <td>2 months</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <th>Technology</th>
+                                <th>Experience</th>
+                            </tr>
+                            <tr>
+                                <td>MySQL</td>
+                                <td>8 months</td>
+                            </tr>
+                            <tr>
+                                <td>Mongo.js</td>
+                                <td>2 months</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>

@@ -1,13 +1,14 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { useEffect } from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css'
 import Intro from './components/Intro/Intro'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 import Slideshow from './components/Slideshow/Slideshow'
 import Socials from './components/Socials/Socials'
-import ThemeSelect from './components/ThemeSelect/ThemeSelect';
+import ThemeSelect from './components/ThemeSelect/ThemeSelect'
 
-export default function App()
+export default function App(props)
 {
   return (
     <div id='app-container'>

@@ -21,6 +21,7 @@
 .project-name {
     margin: 10px 0 5px;
 
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
 }
