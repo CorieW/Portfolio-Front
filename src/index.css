@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   margin: 20px 0 0;
 
-  font-size: 60px;
+  font-size: 50px;
   text-align: left;
 }
 
@@ -83,6 +83,10 @@ th {
 td {
   color: var(--text-color);
   text-align: center;
+}
+
+.hidden {
+  display: none;
 }
 
 @media only screen and (max-width: 800px) {

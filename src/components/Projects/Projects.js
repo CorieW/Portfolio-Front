@@ -47,7 +47,10 @@ export default function Projects() {
                     <p className='short-description'>This website that you are on right now was developed by myself.</p>
                     <div className='links'>
                         <a className='link fab fa-github' href='https://github.com/CorieW/Portfolio-Front' target='_blank' rel='noreferrer'>
-                            <span className='screen-reader-text'>Project's GitHub repository</span>
+                            <span className='screen-reader-text'>Project's Frontend GitHub repository</span>
+                        </a>
+                        <a className='link fab fa-github' href='https://github.com/CorieW/Portfolio-Backend' target='_blank' rel='noreferrer'>
+                            <span className='screen-reader-text'>Project's Backend GitHub repository</span>
                         </a>
                     </div>
                 </div>
