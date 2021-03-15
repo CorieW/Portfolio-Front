@@ -59,6 +59,15 @@
     transition: padding 0.5s;
 }
 
+#contact-container .form .loading-msg {
+    margin: 0 0 20px 0;
+    padding: 10px;
+    background-color: orange;
+
+    text-align: center;
+    color: white;
+}
+
 #contact-container .form .error-msg {
     margin: 0 0 20px 0;
     padding: 10px;

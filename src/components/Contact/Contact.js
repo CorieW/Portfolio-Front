@@ -6,13 +6,15 @@ import './Contact.css'
 
 export default function Contact() {
 
-    const [loaded, setLoaded] = useState(false)
+    const [loaded, setLoaded] = useState(true)
     const [error, setError] = useState()
     const [message, setMessage] = useState()
 
     function submit(e)
     {
         e.preventDefault()
+
+        setLoaded(false)
 
         setError()
         setMessage()
@@ -49,6 +51,7 @@ export default function Contact() {
             <h1>Contact Me</h1>
             <p>Alternatively, email me directly through <i>Watson.Corie@Gmail.com</i>.</p>
             <form className='form' name='contact' onSubmit={ submit } method="post" enctype="text/plain">
+                <p className={ `loading-msg ${!loaded ? '' : 'hidden'}` }>Loading...</p>
                 <p className={ `error-msg ${error ? '' : 'hidden'}` }>{ error }</p>
                 <p className={ `success-msg ${message ? '' : 'hidden'}` }>{ message }</p>
 
