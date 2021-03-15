@@ -5,7 +5,7 @@ export default function Intro() {
     return (
         <div id='intro-container'>
             <h1><span className='greeting'>Hello</span>, I'm <i>Corie Watson.</i></h1>
-            <h2>I'm a Software Developer.</h2>
+            <h2>I'm a Computer Programmer.</h2>
 
             <p>I've been programming for 3 years now and have worked on multiple
                 personal projects. Website and game development have been my main
