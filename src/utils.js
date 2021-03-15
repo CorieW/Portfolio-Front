@@ -14,7 +14,7 @@ function getAxiosRequestErrorMessage(error) {
         if (error.code === 'ECONNABORTED')
             return 'The servers are currently busy or down, please try again later!'
         else if (error.message === 'Network Error')
-            return 'Something is wrong with your network connection. Please make sure you are connected to the internet and then reload your browser.'
+            return 'Either your network connection has an issue or the servers are currently busy or down. Please try again later!'
         else if (error.response.data.message !== undefined)
             return error.response.data.message
         else
