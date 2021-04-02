@@ -78,6 +78,18 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
+                <div className='project'>
+                    <p className='project-name'>Web WorldGenerator</p>
+                    <p className='short-description'>This is a world generation project, but a web version that.</p>
+                    <div className='links'>
+                        <a className='link fab fa-github' href='https://github.com/CorieW/Web-WorldGenerator' target='_blank' rel='noreferrer'>
+                            <span className='screen-reader-text'>Project's GitHub repository</span>
+                        </a>
+                        <a className='link fas fa-globe-europe' href='https://web-worldgenerator.netlify.app/' target='_blank' rel='noreferrer'>
+                            <span className='screen-reader-text'>Project's website</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     )
