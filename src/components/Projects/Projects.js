@@ -80,7 +80,7 @@ export default function Projects() {
                 </div>
                 <div className='project'>
                     <p className='project-name'>Web WorldGenerator</p>
-                    <p className='short-description'>This is a world generation project, but a web version that.</p>
+                    <p className='short-description'>This is a world generation project for the web, created using HTML, SCSS and JS.</p>
                     <div className='links'>
                         <a className='link fab fa-github' href='https://github.com/CorieW/Web-WorldGenerator' target='_blank' rel='noreferrer'>
                             <span className='screen-reader-text'>Project's GitHub repository</span>
