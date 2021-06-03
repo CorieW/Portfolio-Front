@@ -90,6 +90,15 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
+                <div className='project'>
+                    <p className='project-name'>Prince's Path</p>
+                    <p className='short-description'>This is a game myself and four other team members are working on for the two week-long GameDev.tv game jam. The game jam ends on 04/06/2021.</p>
+                    <div className='links'>
+                        <a className='link fab fa-github' href="https://github.com/CorieW/Princes-Path" target='_blank' rel='noreferrer'>
+                            <span className='screen-reader-text'>Project's GitHub repository</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     )
