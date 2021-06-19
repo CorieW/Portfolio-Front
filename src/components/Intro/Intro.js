@@ -60,15 +60,15 @@ export default function Intro() {
                             </tr>
                             <tr>
                                 <td>Node.js</td>
-                                <td>8 months</td>
+                                <td>1 year</td>
                             </tr>
                             <tr>
                                 <td>Express</td>
-                                <td>8 months</td>
+                                <td>1 year</td>
                             </tr>
                             <tr>
                                 <td>React</td>
-                                <td>6 months</td>
+                                <td>1 year</td>
                             </tr>
                         </tbody>
                     </table>
@@ -100,11 +100,11 @@ export default function Intro() {
                             </tr>
                             <tr>
                                 <td>MySQL</td>
-                                <td>8 months</td>
+                                <td>1 year</td>
                             </tr>
                             <tr>
                                 <td>Mongo.js</td>
-                                <td>2 months</td>
+                                <td>less than 1 year</td>
                             </tr>
                         </tbody>
                     </table>

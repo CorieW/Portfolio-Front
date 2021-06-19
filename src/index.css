@@ -54,7 +54,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline dotted;
+  text-decoration: underline;
 }
 
 label {

@@ -29,6 +29,8 @@
 .project .short-description {
     margin: 0;
     padding-bottom: 60px;
+
+    text-align: center;
 }
 
 .project .links {
@@ -46,6 +48,10 @@
 
     font-size: 40px;
     color: var(--text-color);
+}
+
+.project .link:hover {
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
