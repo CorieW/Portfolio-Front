@@ -97,7 +97,7 @@ export default function Projects() {
                         <a className='link fab fa-github' href="https://github.com/CorieW/Princes-Path" target='_blank' rel='noreferrer'>
                             <span className='screen-reader-text'>Project's GitHub repository</span>
                         </a>
-                        <a className='link fas fa-globe-europe' href="https://itch.io/jam/gamedevtv-game-jam-2021/rate/1067282" target='_blank' rel='noreferrer'>
+                        <a className='link fas fa-globe-europe' href="https://devpenguingames.itch.io/princes-trail" target='_blank' rel='noreferrer'>
                             <span className='screen-reader-text'>Itch.io page</span>
                         </a>
                     </div>
